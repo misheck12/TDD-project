@@ -2,45 +2,40 @@
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+## Test-driven development (TDD)
 
-> Description the project.
+
+> This is an application that tests method called fizzbuzz that takes one argument, an integer N, and returns a string. The returned string is constructed following these rules:
+
+- When N is divisible by 3, return "fizz".
+- When N is divisible by 5, return "buzz".
+- When N is divisible by 3 and 5, return "fizzbuzz".
+- Any other case, return N as a string (e.g. say N is 7 then return "7").
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
+- Ruby
+- git
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
+
+- Clone [this repo](https://github.com/misheck12/TDD-project).
+
+- Open terminal in cloned repo directory
+
+### Testing 
+
+- install rspec (gem install rspec)
+- run rspec (bundle exec rspec)
+
+
 
 ### Prerequisites
 
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Authors
+-Ruby
 
 ## Author-misheck12
 
@@ -68,9 +63,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- This project built in Microverse's second module's last week.
+- Original design idea by Nelson Sakwa on Behance.
 
 ## 📝 License
 
